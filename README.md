@@ -1,6 +1,6 @@
 # LIRI APP #
 
-This CLI accepts 4 commands. The commands are formatted as "node liri.js <command> <search item>" on the CLI. The commands and what they do are as follows.
+This CLI accepts 4 commands. The commands are formatted as "node liri.js (command) (search item)" on the CLI. The commands and what they do are as follows.
 
 
 ### 1st Command ###
@@ -17,7 +17,7 @@ Function: When this command is used, the Bands In Town API is called with a sear
 3. Date of Concert/Event
 
 Screenshot Example:
-[screenshot showing results of "concert-this" command](images/command1.PNG)
+![screenshot showing results of "concert-this" command](images/command1.PNG)
 
 
 ### 2nd Command ###
@@ -36,7 +36,7 @@ Function: When this command is used, the Spotify API is called with a search for
 5. Album
 
 Screenshot Example:
-[screenshot showing results of "spotify-this-song" command](images/command2.PNG)
+![screenshot showing results of "spotify-this-song" command](images/command2.PNG)
 
 
 ### 3rd Command ###
@@ -58,7 +58,7 @@ Function: When this command is used, the OMDB API is called with a search for th
 8. Actors
 
 Screenshot Example:
-[screenshot showing results of "movie-this" command](images/command3.PNG)
+![screenshot showing results of "movie-this" command](images/command3.PNG)
 
 
 ### 4th Command ###
@@ -68,4 +68,4 @@ Command: do-what-it-says
 Function: This command utilizes the fs npm package to read the contents of the provided random.txt file. Inside the file, there is a command followed by a search item separated by a comma. The command is separated from the search item, and the two are re-inputed into the CLI function to determine which command was used and what API should be called.
 
 Screenshot Example:
-[screenshot showing results of "do-what-it-says" command](images/command4.PNG)
+![screenshot showing results of "do-what-it-says" command](images/command4.PNG)
